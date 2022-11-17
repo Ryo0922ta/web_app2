@@ -1,0 +1,39 @@
+p {
+  color: orange;
+}
+body {
+  color: gray;
+  font-size: 30px;
+}
+#headline h1 {
+  color: orange;
+}
+#headline, p1 {
+  color: blue;
+}
+/* スクロールしても常に上に戻るボタンが表示される */
+/* fixedは位置の固定 */
+/* top、botton、left,rightで指定位置に配置 */
+/* displayをnoneでボタン非表示にできる */
+.moveToTop {
+  position: fixed;
+  bottom: 30px;
+  right: 20px;
+  display: none;
+}
+.counter{
+  position: fixed;
+  top: 400px;
+}
+.counter2{
+  position: fixed;
+  top: 130px;
+}
+.counter3{
+  position: fixed;
+  top: 200px;
+}
+.counter4{
+  position: fixed;
+  top: 600px;
+}
